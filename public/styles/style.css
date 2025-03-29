@@ -1,0 +1,104 @@
+header {
+  background-color: blueviolet;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+footer {
+  background-color: #999;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.add-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+.add-zone {
+  padding: 10px;
+  background-color: #999;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+#taskInput {
+  width: 80%;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+#addBtn {
+  padding: 10px 20px;
+  background-color: #00ff00;
+}
+
+.cta {
+  background-color: goldenrod;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta:hover {
+  filter: contrast(1.5); /* Rend la couleur plus vive */
+}
+
+.cta:active {
+    transform: scale(1.05);
+}
+
+.display-zone {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+#list-zone {
+  background-color: beige;
+
+  width: 50%;
+  border: 1px solid #333;
+}
+
+#btn-zone {
+  background-color: cadetblue;
+
+  width: 50%;
+  border: 1px solid #333;
+  height: 200px;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.btns-container button {
+  width: 30%;
+}

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>To-Do-List</title>
 </head>
 <body>
@@ -12,26 +13,40 @@
     </header>
     <!-- Corps du site -->
     <main>
-        <h2></h2>
-        <p></p>
+        <h2>Gestionnaire de tache</h2>
+        <p>L'endroit ideale pour s'organiser et avoir une vue claire sur vos taches.</p>
 
         <!-- Zone d'entrée d'une tache -->
-        <div>
-            <h3></h3>
-            <div>
-                <input type="text">
-                <button></button>
+        <div class="add-box">
+            <h3>Ajouter une tache</h3>
+            <div class="add-zone">
+                <input type="text" id="taskInput">
+                <button id="addBtn" class="cta">Ajouter</button>
             </div>
         </div>
 
         <!-- Zone d'affichage et d'options d'affichage -->
-        <div>
+        <div class="display-zone">
             <!-- Zone d'affichage des taches -->
              <!-- Affichage dynamique -->
-            <div></div>
+            <div id="list-zone">
+                <h3>Mes taches</h3>
+                <ul>
+                    <li>Tache 1</li>
+                    <li>Tache 2</li>
+                    <li>Tache 3</li>
+                </ul>
+            </div>
 
             <!-- Zone d'option d'affichage -->
-            <div></div>
+            <div id="btn-zone">
+                <h3>Trier les taches</h3>
+                <div class="btns-container">
+                <button class="cta">Toutes le taches</button>
+                <button class="cta">Taches en cours</button>
+                <button class="cta">Taches terminées</button>
+                </div>
+            </div>
         </div>
     </main>
     <footer>&copy;2025-Saint</footer>
